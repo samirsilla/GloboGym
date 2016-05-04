@@ -1,0 +1,32 @@
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('John', 'Smith', '00001', '636-479-5566');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Tim', 'White', '00002', '314-225-2323');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Jane', 'Tomson', '00003', '578-336-8546');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Tammy', 'Jonson', '00004', '636-475-1588');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Scott', 'Fields', '00005', '314-287-8961');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Steve', 'Andrews', '00006', '578-789-1717');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Stephen', 'Holt', '00007', '636-919-5549');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Kayden', 'Dunn', '00008', '314-816-3605');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Sarah', 'Lay', '00009', '578-213-0365');
+INSERT INTO `gymapp`.`employee` (`First_Name`, `Last_Name`, `Employee_Number`, `Phone_Number`) VALUES ('Alicia', 'Burt', '00010', '314-151-0298');
+
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Sam', 'Moody', '314-485-0857');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Ben', 'Mills', '586-479-0365');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Joe', 'Williams', '578-797-9175');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Corey', 'Burke', '636-475-1199');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Nick', 'Russell', '314-485-1911');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Rusty', 'Baker', '586-479-4325');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Jessica', 'DeRousse', '578-797-5876');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Brandy', 'Sharpe', '636-479-9930');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Ashley', 'Glore', '314-485-0912');
+INSERT INTO `gymapp`.`member` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Amber', 'Burnett', '586-797-1689');
+
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Test', 'User', '578-287-1453');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Brian', 'Smith', '636-479-3917');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Debbie', 'Jones', '314-797-8960');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Al', 'Graf', '586-933-0183');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Sammie', 'Griffin', '578-266-9304');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Jamie', 'Long', '636-475-1567');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Jim', 'Pinkley', '314-933-0285');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Jack', 'Churchfield', '586-478-0919');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Tommy', 'Tompson', '578-443-0513');
+INSERT INTO `gymapp`.`user` (`First_Name`, `Last_Name`, `Phone_Number`) VALUES ('Billy', 'Smith', '636-223-0995');

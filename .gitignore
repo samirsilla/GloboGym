@@ -1,0 +1,14 @@
+# IDE / Operating System files
+.settings/
+.settings/**
+/.project
+.classpath
+.project
+.DS_Store
+.java-version
+
+# Compiled files
+/target/
+
+# intellij
+.idea/

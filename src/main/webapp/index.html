@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gymApp">
+<head>
+    <meta charset="UTF-8">
+    <title>GloboGym</title>
+
+    <!--- Style Sheets --->
+    <link rel="stylesheet" type="text/css" href="resources/vendors/bootstrap-3.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="resources/vendors/bootstrap-3.3.6-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="resources/vendors/angular-1.5.3/angular-csp.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+
+</head>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <a href="#/Home" class="navbar-brand">GloboGym</a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li memberId="memberships-link"><a href="#/memberships">Memberships</a></li>
+                <li memberId="about-link"><a href="#/about">About</a></li>
+                <li memberId="employees-link"><a href="#/employees">Employees</a></li>
+                <li memberId="members-link"><a href="#/members">Members</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div ng-view></div>
+</body>
+
+
+<div class="navbar navbar-fixed-bottom navbar-inverse">
+    <div class="container text-center">
+        <p class="navbar-text col-xs-12">&copy; 2016 GloboGym</p>
+    </div>
+</div>
+
+
+    <!--- Scripts --->
+    <script src="resources/vendors/jquery/jquery-1.12.3.min.js"></script>
+    <script src="resources/vendors/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <script src="resources/vendors/angular-1.5.3/angular.js"></script>
+    <script src="resources/vendors/angular-1.5.3/angular-route.js"></script>
+
+    <script src="resources/js/gymApp.js"></script>
+    <script src="resources/js/routes.js"></script>
+    <script src="resources/js/controllers/employeeController.js"></script>
+    <script src="resources/js/controllers/memberController.js"></script>
+
+</html>

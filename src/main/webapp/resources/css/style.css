@@ -1,0 +1,46 @@
+.navbar-adjust-content{
+    margin-top: 85px;
+}
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.gymPhoto {
+    background-image: url("../assets/gymPic6.jpg");
+    height: 443px;
+}
+
+.appTitle {
+    padding-bottom: 20px;
+}
+
+.aboutTitle {
+    padding-bottom: 40px;
+}
+
+.manageTitle {
+    padding-bottom: 20px;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: lightgray;
+}
+
+.add-button {
+    padding-right: 206px;
+    padding-bottom: 15px;
+}
+
+.smaller-table {
+    width: 65%;
+    margin: auto;
+}
+
+body {
+    padding-bottom: 80px;
+}
+
+
+
